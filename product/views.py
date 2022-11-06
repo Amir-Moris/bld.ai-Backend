@@ -4,7 +4,7 @@ from django.http import JsonResponse
 from django.views import View
 from django.core import serializers
 import json
-from .models import student;
+from .models import student
 # Create your views here.
 
 class productViewSingle(View):
